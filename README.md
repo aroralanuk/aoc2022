@@ -7,6 +7,7 @@ My attempts at the [Advent of Code 2022](https://adventofcode.com/2022) challeng
 * ![Day-01-Calorie-Counting](https://github.com/aroralanuk/aoc2022/actions/workflows/Day-01.yml/badge.svg?branch=main)
 * ![Day-02-Rock-Paper-Scissors](https://github.com/aroralanuk/aoc2022/actions/workflows/Day-02.yml/badge.svg?branch=main)
 * ![Day-03-Ruskstack-Reorganisation](https://github.com/aroralanuk/aoc2022/actions/workflows/Day-03.yml/badge.svg?branch=main)
+* ![Day-04-Camp-Cleanup](https://github.com/aroralanuk/aoc2022/actions/workflows/Day-04.yml/badge.svg?branch=main)
 
 ## How to run
 
