@@ -8,3 +8,4 @@ edition = "2021"
 [dependencies]
 color-eyre = "0.5"
 itertools = "0.10.5"
+regex = "1.7.0"

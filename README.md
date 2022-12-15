@@ -8,6 +8,7 @@ My attempts at the [Advent of Code 2022](https://adventofcode.com/2022) challeng
 * ![Day-02-Rock-Paper-Scissors](https://github.com/aroralanuk/aoc2022/actions/workflows/Day-02.yml/badge.svg?branch=main)
 * ![Day-03-Ruskstack-Reorganisation](https://github.com/aroralanuk/aoc2022/actions/workflows/Day-03.yml/badge.svg?branch=main)
 * ![Day-04-Camp-Cleanup](https://github.com/aroralanuk/aoc2022/actions/workflows/Day-04.yml/badge.svg?branch=main)
+* ![Day-05-Supply-Stack](https://github.com/aroralanuk/aoc2022/actions/workflows/Day-05.yml/badge.svg?branch=main)
 
 ## How to run
 
@@ -15,13 +16,13 @@ All puzzles are compiled into a single executable, and individual puzzles are se
 
 For example, to build and execute the puzzle for Day 2, run:
 
-```
+```shell
 cargo run -- 02
 ```
 
 To build optimized artifacts, run:
 
-```
+```shell
 cargo build –-release --verbose
 ./target/release/aoc 02
 ```
