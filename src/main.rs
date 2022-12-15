@@ -4,6 +4,7 @@ mod day_02_rock_paper_scissors;
 mod day_03_rusksack_reorg;
 mod day_04_camp_cleanup;
 mod day_05_supply_stacks;
+mod day_06_tuning_trouble;
 
 fn main() {
     let day: String = std::env::args().nth(1).expect(
@@ -17,6 +18,7 @@ fn main() {
         "03" => day_03_rusksack_reorg::main(),
         "04" => day_04_camp_cleanup::main(),
         "05" => day_05_supply_stacks::main(),
+        "06" => day_06_tuning_trouble::main(),
         _ => println!("No valid day given. Possible options are: 01-25."),
     };
 }

@@ -49,7 +49,7 @@ use itertools::Itertools;
 
 fn part1() -> color_eyre::Result<()> {
     let mut total = 0;
-    let input = input_reader::read_file_in_cwd("src/day_03_input.txt");
+    let input = input_reader::read_file_in_cwd("src/input/day_03.txt");
 
     for line in input.lines() {
         // split into the two compartments
