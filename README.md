@@ -10,6 +10,7 @@ My attempts at the [Advent of Code 2022](https://adventofcode.com/2022) challeng
 * ![Day-04-Camp-Cleanup](https://github.com/aroralanuk/aoc2022/actions/workflows/Day-04.yml/badge.svg?branch=main)
 * ![Day-05-Supply-Stack](https://github.com/aroralanuk/aoc2022/actions/workflows/Day-05.yml/badge.svg?branch=main)
 * ![Day-06-Tuning-Trouble](https://github.com/aroralanuk/aoc2022/actions/workflows/Day-06.yml/badge.svg?branch=main)
+* ![Day-07](https://github.com/aroralanuk/aoc2022/actions/workflows/Day-07.yml/badge.svg?branch=main)
 
 ## How to run
 

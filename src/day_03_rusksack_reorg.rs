@@ -1,6 +1,4 @@
-
 use crate::input_reader;
-
 
 mod item {
     // treat as a native new type
@@ -85,7 +83,7 @@ fn part1() -> color_eyre::Result<()> {
 }
 
 fn part2() -> color_eyre::Result<()> {
-    let input = input_reader::read_file_in_cwd("src/day_03_input.txt");
+    let input = input_reader::read_file_in_cwd("src/input/day_03.txt");
     let rucksacks = input.lines().map(|line | {
         line.bytes().map(Item::try_from)
             .collect::<Result<HashSet<_>, _>>()
