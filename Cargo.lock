@@ -31,6 +31,7 @@ name = "aoc2022"
 version = "0.1.0"
 dependencies = [
  "color-eyre",
+ "from-fn",
  "itertools",
  "regex",
 ]
@@ -104,6 +105,12 @@ dependencies = [
  "indenter",
  "once_cell",
 ]
+
+[[package]]
+name = "from-fn"
+version = "0.0.0"
+source = "registry+https://github.com/rust-lang/crates.io-index"
+checksum = "e06ebfd8f8961a556894dcc82f921ab3fde3c9d1c4e47a410520972ddaf4e991"
 
 [[package]]
 name = "gimli"
