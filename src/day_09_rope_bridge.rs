@@ -1,6 +1,5 @@
 use crate::input_reader;
 use std::collections::HashSet;
-use itertools::Itertools;
 
 #[derive(Eq, Hash, PartialEq, Clone, Copy, Debug)]
 struct GridPos {

@@ -8,6 +8,7 @@ mod day_06_tuning_trouble;
 mod day_07_no_space_left_on_device;
 mod day_08_treetop_tree_house;
 mod day_09_rope_bridge;
+mod day_10_cathod_ray_tube;
 
 fn main() {
     let day: String = std::env::args().nth(1).expect(
@@ -25,6 +26,7 @@ fn main() {
         "07" => day_07_no_space_left_on_device::main(),
         "08" => day_08_treetop_tree_house::main(),
         "09" => day_09_rope_bridge::main(),
+        "10" => day_10_cathod_ray_tube::main(),
         _ => println!("No valid day given. Possible options are: 01-25."),
     };
 }
