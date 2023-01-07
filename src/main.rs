@@ -11,6 +11,7 @@ mod day_09_rope_bridge;
 mod day_10_cathod_ray_tube;
 mod day_11_monkey_business;
 mod day_12_hill_climb_algorithm;
+mod day_13_distress_signal;
 
 fn main() {
     let day: String = std::env::args().nth(1).expect(
@@ -31,6 +32,7 @@ fn main() {
         "10" => day_10_cathod_ray_tube::main(),
         "11" => day_11_monkey_business::main(),
         "12" => day_12_hill_climb_algorithm::main(),
+        "13" => day_13_distress_signal::main(),
         _ => println!("No valid day given. Possible options are: 01-25."),
     };
 }
