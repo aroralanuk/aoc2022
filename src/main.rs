@@ -13,6 +13,7 @@ mod day_11_monkey_business;
 mod day_12_hill_climb_algorithm;
 mod day_13_distress_signal;
 mod day_14_regolith_reservoir;
+mod day_15_beacon_exclusion_zone;
 
 fn main() {
     let day: String = std::env::args().nth(1).expect(
@@ -35,6 +36,7 @@ fn main() {
         "12" => day_12_hill_climb_algorithm::main(),
         "13" => day_13_distress_signal::main(),
         "14" => day_14_regolith_reservoir::main(),
+        "15" => day_15_beacon_exclusion_zone::main(),
         _ => println!("No valid day given. Possible options are: 01-25."),
     };
 }
